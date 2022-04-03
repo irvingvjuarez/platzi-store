@@ -12,6 +12,4 @@ jobs:
         run: echo Hello World
 
       - name: Run a one-line script
-        run: |
-        echo Add another action to build.
-        echo Here is the another action running
+        run: echo Add another action to build.
