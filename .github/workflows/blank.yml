@@ -1,4 +1,8 @@
 name: Blank
+on: 
+  push:
+    branches: master
+  workflow_dispatch:
 build:
   runs-on: ubuntu-latest
   steps:
@@ -7,6 +11,4 @@ build:
       run: echo Hello World
 
     - name: Run a one-line script
-      run: | 
-      echo Add another action to build,
-      echo Test and deploy your project
+      run: echo Add another action to build.
